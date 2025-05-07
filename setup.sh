@@ -12,6 +12,8 @@ BOLD='\033[1m'
 RESET='\033[0m'
 
 # === RetardMeG Design Banner ===
+cat << "EOF"
+
 echo -e "\n${PURPLE}${BOLD}############################################${RESET}"
 echo -e "${PURPLE}${BOLD}#                                          #${RESET}"
 echo -e "${PURPLE}${BOLD}#          A Z T E C   N O D E             #${RESET}"
@@ -20,6 +22,8 @@ echo -e "${PURPLE}${BOLD}#                                          #${RESET}"
 echo -e "${PURPLE}${BOLD}############################################${RESET}\n"
 echo -e "${LIGHTBLUE}${BOLD}📡 Twitter:  https://x.com/Jaishiva0302${RESET}"
 echo -e "${LIGHTBLUE}${BOLD}💬 Telegram: https://t.me/vampsairdrop${RESET}\n"
+
+EOF
 
 sleep 7
 
